@@ -18,8 +18,8 @@
     <script>
         var VERSION = localStorage.getItem('versionHash');
         (function versionControl() {
-            let request = new XMLHttpRequest();
-            let url = window.location.href + "/api/vhash";
+            const request = new XMLHttpRequest();
+            const url = window.location.href + "/api/vhash";
             console.log("Checking version...");
             return new Promise((resolve, reject) => {
                 request.open('GET', url);
@@ -167,13 +167,13 @@
         });
     </script>
     <script>
-        $(document).ready( function() {
+        $(document).ready( () => {
             // This is because it acts weird in Chrome for whatever reason...
             $("#twitterHolder").css({"height": "100%"});
             // This is for updates
             if (localStorage.getItem('updated') === 'datgudshit') {
                 localStorage.setItem('updated', false);
-                $('#patchNotesIFrame').load(function(){
+                $('#patchNotesIFrame').load(()=> {
                     $("#patchNotesIFrame").contents().find('#patchNotes').prepend('<update>New update!</update> ');
                 });
             }

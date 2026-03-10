@@ -1,99 +1,104 @@
 * {
-    font-family: Ubuntu;
-    font-size: 14px;
+	font-family: Ubuntu;
+	font-size: 14px;
 }
 
 .conceal {
-    -webkit-text-security: disc;
+	-webkit-text-security: disc;
 }
 
 #mainBody {
-    background-color: #484848;
+	background-color: #484848;
 }
 
-html, body, canvas {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body,
+canvas {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-    padding: 0;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bolder;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bolder;
 }
 
 h2 {
-    font-size: small;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
+	font-size: small;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
 }
 
 optionsHeader {
-    padding: 0;
-    padding-bottom: 5px;
-    margin: 0;
-    font-size: small;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
+	padding: 0;
+	padding-bottom: 5px;
+	margin: 0;
+	font-size: small;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
 }
 
 h3 {
-    font-size: small;
-    color: #484848;
-    font-style: italic;
-    text-align: center;
+	font-size: small;
+	color: #484848;
+	font-style: italic;
+	text-align: center;
 }
 
 h4 {
-    font-size: small;
-    color: #8ABC3F;
-    text-align: center;
+	font-size: small;
+	color: #8abc3f;
+	text-align: center;
 }
 
 h5 {
-    font-size: x-small;
-    color: #484848;
-    text-align: center;
+	font-size: x-small;
+	color: #484848;
+	text-align: center;
 }
 
 small {
-    font-size: x-small;
+	font-size: x-small;
 }
 
-a:link, a:visited {
-    color: #484848;
+a:link,
+a:visited {
+	color: #484848;
 }
 a:hover {
-    color: #B5B5B9;
+	color: #b5b5b9;
 }
 
 ul {
-    padding-left: 15px;
-    margin-left: 10px;
+	padding-left: 15px;
+	margin-left: 10px;
 }
 
 input {
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    border: solid 1px #dcdcdc;
-    transition: box-shadow 0.3s, border 0.3s;
-    box-sizing: border-box;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    outline: none;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	border: solid 1px #dcdcdc;
+	transition:
+		box-shadow 0.3s,
+		border 0.3s;
+	box-sizing: border-box;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	outline: none;
 }
-    
+
 input.checkbox {
     width: 13px;
     height: 13px;
