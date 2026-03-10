@@ -23,12 +23,15 @@
 		"watch": "node scripts/esbuild.mjs --watch",
 		"serve": "node scripts/serve.mjs",
 		"check": "tsc -p tsconfig.json --noEmit",
-		"clean": "node scripts/clean.mjs"
+		"clean": "node scripts/clean.mjs",
+		"lint": "biome check .",
+		"lint:fix": "biome check --write ."
 	},
 	"dependencies": {
 		"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.59.0"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "2.4.6",
 		"@types/node": "^25.4.0",
 		"esbuild": "^0.27.3",
 		"typescript": "^5.9.3"
