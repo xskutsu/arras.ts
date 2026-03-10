@@ -20,7 +20,11 @@
 	"scripts": {
 		"start": "node dist/server.js",
 		"build": "node scripts/esbuild.mjs",
+		"build:client": "node scripts/esbuild.mjs --client",
+		"build:server": "node scripts/esbuild.mjs --server",
 		"watch": "node scripts/esbuild.mjs --watch",
+		"watch:client": "node scripts/esbuild.mjs --client --watch",
+		"watch:server": "node scripts/esbuild.mjs --server --watch",
 		"serve": "node scripts/serve.mjs",
 		"check": "tsc -p tsconfig.json --noEmit",
 		"clean": "node scripts/clean.mjs",
